@@ -2,9 +2,9 @@ require "formula"
 
 class Projectk < Formula
   homepage "https://www.github.com/aspnet/Home"
-  version "1.0.0-alpha3-10047"
-  url "https://www.myget.org/F/aspnetvnext/api/v2/package/KRE-mono45-x86/1.0.0-alpha3-10047"
-  sha1 "4d83a5a6fe3ec01c9730d9dc2226aaf750ee104e"
+  version "1.0.0-alpha3-10072"
+  url "https://www.myget.org/F/aspnetvnext/api/v2/package/KRE-mono45-x86/1.0.0-alpha3-10072"
+  sha1 "0b9c4a332fc34959745f0b1af6b0f5aff0445a08"
 
   depends_on "mono" => :recommended
 
