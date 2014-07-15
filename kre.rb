@@ -9,9 +9,13 @@ class Kre < Formula
   depends_on "kmono" => :recommended
 
   def install
-    bin.install Dir["bin/k"]
-    bin.install Dir["bin/klr"]
-    bin.install Dir["bin/kpm"]
+    libexec.install Dir["*"]
+    (libexec + "bin/klr").chmod 0755
+    (libexec + "bin/kpm").chmod 0755
+    (libexec + "bin/k").chmod 0755
+    bin.install_symlink "#{libexec}/bin/klr"
+    bin.install_symlink "#{libexec}/bin/kpm"
+    bin.install_symlink "#{libexec}/bin/k"
   end
 
 end
