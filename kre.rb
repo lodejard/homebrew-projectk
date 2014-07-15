@@ -1,6 +1,6 @@
 require "formula"
 
-class Projectk < Formula
+class Kre < Formula
   homepage "https://www.github.com/aspnet/Home"
   version "1.0.0-alpha3-10141"
   url "https://github.com/lodejard/homebrew-projectk/releases/download/v1.0.0-alpha3-10141/KRE-mono45-x86-1.0.0-alpha3.10141.nupkg"
