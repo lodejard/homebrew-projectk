@@ -10,6 +10,7 @@ class Kre < Formula
 
   def install
     bin.install Dir["bin/k"]
+    bin.install Dir["bin/klr"]
     bin.install Dir["bin/kpm"]
   end
 
